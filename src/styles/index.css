@@ -1,11 +1,29 @@
+.soporte-semaforo{
+    background: rgb(68, 67, 67);
+    width: 20px;
+    height: 80px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .semaforo {
-    text-align: center;  
+    
+    background: rgb(68, 67, 67);
+    width: 90px;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 .semaforo div {
-    display: block;
-    padding: 10px;
-    margin: 3px;
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
 }
+
 
 
 

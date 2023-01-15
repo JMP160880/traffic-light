@@ -39,10 +39,12 @@ const Home = () => {
 
 
 	return (
+		<div className="soporte-semaforo">
 		<div className="semaforo">
 			<div className={"btn btn-danger " + opacityRed}  onClick= {colorRed} ></div>
 			<div className={"btn btn-warning " + opacityYellow} onClick= {colorYellow}></div>
 			<div className={"btn btn-success " + opacityGreen} onClick= {colorGreen}></div>
+		</div>
 		</div>
 	);
 };
