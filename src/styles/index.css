@@ -1,4 +1,5 @@
 .soporte-semaforo{
+    position: relative;
     background: rgb(68, 67, 67);
     width: 20px;
     height: 80px;
@@ -7,10 +8,11 @@
     padding-bottom: 10px;
 }
 .semaforo {
-    
+    position: absolute;
+    text-align: center;
     background: rgb(68, 67, 67);
     width: 90px;
-    margin: auto;
+    margin-left: -35px;
     margin-top: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
